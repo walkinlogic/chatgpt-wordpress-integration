@@ -1,0 +1,58 @@
+.chatgpt-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.chatgpt-response {
+    min-height: 100px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.chatgpt-prompt {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.chatgpt-submit {
+    background: #2271b1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chatgpt-submit:hover {
+    background: #135e96;
+}
+
+.chatgpt-submit:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+.chatgpt-loading {
+    margin-top: 10px;
+    color: #666;
+}
+
+.chatgpt-message {
+    line-height: 1.6;
+}
+
+.chatgpt-error {
+    color: #dc3232;
+}
